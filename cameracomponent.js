@@ -2,6 +2,13 @@ import { View, TouchableOpacity, TouchableWithoutFeedback } from 'react-native';
 import { RNCamera } from 'react-native-camera';
 import { useCamera } from 'react-native-camera-hooks';
 
+
+/**
+ * This functional component does not work without modifications. 
+ * Check the cameraclasscomponent.js instead.
+ * @param {} param0 
+ */
+
 export const CameraComponent = ({ initialProps }) => {
   const [
     { cameraRef, type, ratio, autoFocus, autoFocusPoint, isRecording },
