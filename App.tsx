@@ -7,7 +7,7 @@
 
 import React from 'react';
 import { View, Dimensions } from 'react-native'
-import { CameraComponent } from './cameracomponent'
+import { CameraComponent } from './cameraclasscomponent'
 
 
 function App(): JSX.Element {
@@ -32,7 +32,7 @@ function App(): JSX.Element {
   }
 
   return (
-      <CameraComponent/>
+      <View style={{flex: 1}}><CameraComponent/></View>
   );
 }
 
